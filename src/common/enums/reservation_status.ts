@@ -1,0 +1,8 @@
+export enum ReservationStatus {
+  SUCCESS = 'SUCCESS',
+  OUT_OF_STOCK = 'OUT_OF_STOCK',
+  ALREADY_RESERVED = 'ALREADY_RESERVED',
+  LOCKED = 'LOCKED',
+  ERROR = 'ERROR'
+}
+
