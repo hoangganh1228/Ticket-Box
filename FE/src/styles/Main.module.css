@@ -1,0 +1,88 @@
+.bannerSwiper {
+  position: relative; /* để làm cha cho nút absolute */
+  padding-bottom: 40px;
+}
+
+.prevBtnBanner,
+.nextBtnBanner {
+  position: absolute; /* quan trọng */
+  top: 50%;
+  transform: translateY(-110%);
+  z-index: 10; /* để nằm trên video */
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 4px 4px 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.prevBtnBanner {
+  left: 10px; /* sát bên trái */
+}
+
+.nextBtnBanner {
+  right: 10px; /* sát bên phải */
+}
+
+.prevBtnBanner:hover,
+.nextBtnBanner:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.bannerSwiper .swiper-pagination-bullet-active {
+  color: #2dc275;
+}
+
+.bannerSwiper :global(.swiper-pagination-bullet) {
+  width: 8px;
+  height: 8px;
+  background: #fff; /* màu trắng cho chấm thường */
+  opacity: 1;       /* đảm bảo không bị mờ */
+}
+
+.bannerSwiper :global(.swiper-pagination-bullet-active) {
+  background: #2dc275; /* màu xanh khi active */
+}
+
+/* css special */
+
+.SpecialEvent {
+  position: relative;
+}
+
+/* Nút prev/next sự kiện */
+.prevBtnSpecialEvent,
+.nextBtnSpecialEvent {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  border-radius: 0px 4px 4px 0px;
+  width: 30px;
+  height: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 16px;
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+}
+
+.prevBtnSpecialEvent {
+  left: 10px;
+}
+.nextBtnSpecialEvent {
+  right: 10px;
+}
+
+.prevBtnSpecialEvent:hover,
+.nextBtnSpecialEvent:hover {
+  background-color: rgba(0, 0, 0, 0.6);
+}

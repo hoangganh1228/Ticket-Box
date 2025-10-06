@@ -1,0 +1,13 @@
+.custom-modal-add-member {
+    .ant-modal-header {
+        background: #1f2937;
+    }
+
+    .ant-modal-close {
+        color: #ffffff;
+    }
+
+    .ant-modal-content {
+        background: #1f2937;
+    }
+}

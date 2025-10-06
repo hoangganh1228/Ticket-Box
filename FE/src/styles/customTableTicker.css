@@ -1,0 +1,102 @@
+.custom-table-ticket .ant-table {
+    background: #27272a;
+    color: #fff;
+}
+
+.custom-table-ticket .ant-table-thead>tr>th {
+    background: #27272a !important;
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+}
+
+.custom-table-ticket .ant-table-tbody>tr>td {
+    background: #38383d;
+    color: #fff;
+    text-align: center;
+}
+
+.custom-table-ticket .ant-table-cell {
+    border-color: #444 !important;
+}
+
+.custom-table-ticket .ant-table-cell::before {
+    display: none !important;
+}
+
+.custom-table-ticket .ant-table-tbody>tr:hover>td {
+    background: #333 !important;
+}
+
+.custom-table-ticket .ant-table-tbody>tr>td,
+.custom-table-ticket .ant-table-thead>tr>th {
+    border-left: 1px solid #444 !important;
+    border-right: 1px solid #444 !important;
+}
+
+/*  */
+/* Nền bảng chung */
+.custom-table-ticket-order .ant-table {
+    background: #2b2b2b;
+    color: #fff;
+}
+
+/* Header */
+.custom-table-ticket-order .ant-table-thead>tr>th {
+    background: #1e1e1e !important;
+    color: #fff !important;
+    font-weight: 600;
+    text-align: center;
+    border-color: #444 !important;
+}
+
+/* Body */
+.custom-table-ticket-order .ant-table-tbody>tr>td {
+    background: #2b2b2b;
+    color: #fff;
+    text-align: center;
+    border-color: #444 !important;
+}
+
+/* Hover row */
+.custom-table-ticket-order .ant-table-tbody>tr:hover>td {
+    background: #333 !important;
+}
+
+/* Summary chung */
+.custom-table-ticket-order .ant-table-summary {
+    background: #2b2b2b;
+}
+
+.custom-table-ticket-order .ant-table-summary>tr>td {
+    border-color: #444 !important;
+    color: #fff;
+    font-weight: 600;
+}
+
+/* Tổng tạm tính */
+.custom-table-ticket-order .ant-table-summary .text-subtotal {
+    text-align: right;
+}
+
+/* Tổng tiền */
+.custom-table-ticket-order .ant-table-summary .text-bold {
+    font-weight: 700 !important;
+}
+
+.custom-table-ticket-order .ant-table-summary .text-green {
+    color: #00c853 !important;
+    /* xanh lá */
+    text-align: right;
+}
+
+.custom-table-ticket-order .ant-table-cell::before {
+    display: none !important;
+}
+
+.custom-table-ticket-order .ant-table-tbody>tr>td,
+.custom-table-ticket-order .ant-table-thead>tr>th,
+.custom-table-ticket-order .ant-table-summary>tr>td {
+    border-left: 1px solid #444 !important;
+    border-right: 1px solid #444 !important;
+}
